@@ -1,15 +1,27 @@
 fileFormatVersion: 2
 guid: 9a72553c4e08f354b8e875fc0a3db267
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: fallingGuy_torso
-    21300002: fallingGuy_1
-    21300004: fallingGuy_2
-    21300006: fallingGuy_3
-    21300008: fallingGuy_4
-    21300010: fallingGuy_5
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: fallingGuy_torso
+  - first:
+      213: 21300002
+    second: fallingGuy_1
+  - first:
+      213: 21300004
+    second: fallingGuy_2
+  - first:
+      213: 21300006
+    second: fallingGuy_3
+  - first:
+      213: 21300008
+    second: fallingGuy_4
+  - first:
+      213: 21300010
+    second: fallingGuy_5
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -64,7 +76,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -75,7 +87,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -86,7 +99,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -97,7 +111,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -108,7 +123,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -119,6 +135,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -138,6 +155,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9a670b4fee6e59b448f71ad5c19e0906
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -146,10 +164,10 @@ TextureImporter:
       name: fallingGuy_1
       rect:
         serializedVersion: 2
-        x: 1350
-        y: 998
-        width: 244
-        height: 282
+        x: 1331
+        y: 1016
+        width: 323
+        height: 299
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,6 +176,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f54e1b211a6e6e142a0d1f4818bd1274
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -166,10 +185,10 @@ TextureImporter:
       name: fallingGuy_2
       rect:
         serializedVersion: 2
-        x: 1719
+        x: 1722
         y: 725
-        width: 215
-        height: 339
+        width: 225
+        height: 356
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,6 +197,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 38431972dd6e8a444a719d9f04df42df
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -186,10 +206,10 @@ TextureImporter:
       name: fallingGuy_3
       rect:
         serializedVersion: 2
-        x: 1139
-        y: 36
-        width: 140
-        height: 341
+        x: 1116
+        y: 41
+        width: 163
+        height: 338
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,6 +218,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c76ee410028bb544097f81f534f51f9c
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -208,7 +229,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1580
         y: 0
-        width: 140
+        width: 172
         height: 341
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -218,6 +239,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 996280f487361a94ebc662a7ec6f47cf
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -226,10 +248,10 @@ TextureImporter:
       name: fallingGuy_5
       rect:
         serializedVersion: 2
-        x: 1777
+        x: 1758
         y: 245
-        width: 215
-        height: 339
+        width: 234
+        height: 370
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,6 +260,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 03d7ed7eb9902494aa66fec28cdb4435
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -246,10 +269,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: ccb0213bfe74ee84a9af016ab1c8e74c
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
